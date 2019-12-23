@@ -5,22 +5,57 @@ body {
 }
 
 h1 {
-  font-size: 562.5%;
-  margin-top: 0;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   margin-bottom: 0;
   font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+hr {
+  border: none;
+  border-top: 10px dotted black;
+  border-color: grey;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
 }
 
 h2 {
-  font-family: "Sacramento", cursive;
+  font-size: 2.5rem;
+  color: #66bfbf;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+h2 span {
+  text-decoration: underline;
+}
+
+a {
+  color: #11999e;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+#jobtitle {
+  font-weight: normal;
 }
 
 #mountain {
   margin: 0;
+}
+
+.line-height {
+  line-height: 2;
 }
 
 .square {
@@ -28,7 +63,7 @@ h3 {
   width: 200px;
 }
 .top-container {
-  background-color: greenyellow;
+  background-color: teal;
   display: block;
   position: relative;
   padding-top: 100px;
@@ -46,12 +81,9 @@ h3 {
   bottom: 300px;
 }
 
-.middle-container {
-  /* background-color: rebeccapurple; */
-}
-
 .bottom-container {
-  /* background-color: rosybrown; */
+  background-color: #66bfbf;
+  height: 10rem;
 }
 
 .profile-image {
@@ -61,5 +93,60 @@ h3 {
 }
 
 .skill-image {
-  width: 20%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-desc {
+  color: #40514e;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  margin: 100px;
+}
+
+.myButton {
+  background-color: #11999e;
+  border-radius: 28px;
+  border: 1px solid #11999e;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 15px 54px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #11999e;
+}
+.myButton:hover {
+  background-color: #11999e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.footer-section {
+  padding: 30px 0 30px 0;
+}
+
+.footer-link {
+  color: #11999e;
+  margin: 30px;
+}
+
+.footer-link:hover {
+  color: white;
+  margin: 30px;
+}
+
+#copy-right {
+  color: white;
 }
